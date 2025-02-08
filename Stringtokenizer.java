@@ -4,4 +4,4 @@ public class Stringtokenizer {
         StringTokenizer st=new StringTokenizer("hello world");
         System.out.println(st.countTokens());
     }
-} n 
+} 
