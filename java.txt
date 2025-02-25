@@ -1,0 +1,68 @@
+java program
+
+-java is a general purpose programming language
+-That is class based and object oriented.
+-Developer ca write code anywhere and run it without worring about under lying computer.
+-It is also refer to has write once run anywhere(WORA).
+
+History of java
+
+-Java was developed by sun micro systems in year 1995.
+-JAMES GOSLING is father of java.
+-Before java name is OAK.
+-
+TYPES OF JAVA APPLICTION
+
+-Mobile app.
+-Desktop app.
+-Web based app.
+-Enterprises app.
+-Scinetific app.
+-Gaming app.
+-Business app.
+-Could app.
+
+4 CATEGARISE OF APPLICTION
+
+-1.Stand alone application -It is also known as Desktop application or Window based app. 
+-2.Web app -It an app that run on the Srever side and create a dynamic page.
+-3.Enterprises app -An app that is distributed in nature such as banking App. EJB -Enterprises Java Bean
+-4.Mobile app - That is create  for Mobile device and a moblie apps.
+
+
+JAVA PLATEFORM/EDITION 
+
+4TYPES
+-JAVA SE 
+-JAVA EE
+-JAVA ME 
+-JAVA FX
+
+JAVA FEATURES
+
+-Simple
+-Object oriented
+-Portable
+-Plateform Indepented
+-Secure
+-High performence
+-Multi Threaded -multitask or process
+-Robust -can handle unexpected error
+-distributed
+-Dynamic 
+
+JAVA TOOLS AND REQUIRED FOR DEVELOP
+
+-JDK-java development kit
+-Editor or IDE -Intergrated development Environment -notepad,eclipse,netbeans
+
+JDK 
+___________________________________________________
+| JRE                                              |
+| _______________________________________________  |
+| |                                             |  |
+| |JVM -select librarices   development Tools   |  |
+| |    - other files           eg javac,java.   |  |
+| |                                             |  |
+| |_____________________________________________|  |
+|__________________________________________________|
