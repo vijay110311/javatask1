@@ -1,11 +1,11 @@
-java program
+WHAT IS JAVA ?
 
 -java is a general purpose programming language
 -That is class based and object oriented.
 -Developer ca write code anywhere and run it without worring about under lying computer.
 -It is also refer to has write once run anywhere(WORA).
 
-History of java
+HISTORY OF JAVA
 
 -Java was developed by sun micro systems in year 1995.
 -JAMES GOSLING is father of java.
