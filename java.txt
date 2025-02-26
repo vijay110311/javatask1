@@ -66,3 +66,17 @@ ___________________________________________________
 | |                                             |  |
 | |_____________________________________________|  |
 |__________________________________________________|
+
+
+
+INTERFACE (FULL ABSTRACTION)
+
+-An interface is a return-type defines the behaviour of a class
+-An interface is a buleprint of a class
+-It is used to achived abstraction, polymorphism and multiple inheritance
+-Interface specific what a class must do and not now.
+-It has static constants and abstract method.
+-There can be only abstract method in java interface not method body.
+-the body is implemented by  the implemented class.
+-To implement an interface " implements" keyword is used.
+-Class can implement an interface using the "implement"
