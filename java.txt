@@ -1,18 +1,18 @@
 WHAT IS JAVA ?
-
+----------------
 -java is a general purpose programming language
 -That is class based and object oriented.
--Developer ca write code anywhere and run it without worring about under lying computer.
--It is also refer to has write once run anywhere(WORA).
+-Developer can write code anywhere and run it without worring about under lying computer.
+-It is also refer to has write once run any where(WORA).
 
 HISTORY OF JAVA
-
+----------------
 -Java was developed by sun micro systems in year 1995.
 -JAMES GOSLING is father of java.
 -Before java name is OAK.
 -
 TYPES OF JAVA APPLICTION
-
+-----------------------
 -Mobile app.
 -Desktop app.
 -Web based app.
@@ -23,7 +23,7 @@ TYPES OF JAVA APPLICTION
 -Could app.
 
 4 CATEGARISE OF APPLICTION
-
+----------------------------
 -1.Stand alone application -It is also known as Desktop application or Window based app. 
 -2.Web app -It an app that run on the Srever side and create a dynamic page.
 -3.Enterprises app -An app that is distributed in nature such as banking App. EJB -Enterprises Java Bean
@@ -31,7 +31,7 @@ TYPES OF JAVA APPLICTION
 
 
 JAVA PLATEFORM/EDITION 
-
+------------------------
 4TYPES
 -JAVA SE 
 -JAVA EE
@@ -39,20 +39,20 @@ JAVA PLATEFORM/EDITION
 -JAVA FX
 
 JAVA FEATURES
-
+-----------------
 -Simple
 -Object oriented
 -Portable
 -Plateform Indepented
 -Secure
 -High performence
--Multi Threaded -multitask or process
+-Multi Threaded -multi-task or multi-process
 -Robust -can handle unexpected error
 -distributed
 -Dynamic 
 
 JAVA TOOLS AND REQUIRED FOR DEVELOP
-
+------------------------------------
 -JDK-java development kit
 -Editor or IDE -Intergrated development Environment -notepad,eclipse,netbeans
 
@@ -70,7 +70,7 @@ ___________________________________________________
 
 
 INTERFACE (FULL ABSTRACTION)
-
+---------------------------------
 -An interface is a return-type defines the behaviour of a class
 -An interface is a buleprint of a class
 -It is used to achived abstraction, polymorphism and multiple inheritance
@@ -79,4 +79,52 @@ INTERFACE (FULL ABSTRACTION)
 -There can be only abstract method in java interface not method body.
 -the body is implemented by  the implemented class.
 -To implement an interface " implements" keyword is used.
--Class can implement an interface using the "implement"
+-Class can implement an interface using the "implement" keyword
+-Interface also represents the IS-a relationship
+-Interface cannot be instatiated (Objects cannot create for an interface)
+
+HOW TO DACLARE AN INTERFACE?
+-------------------------------
+-Declare using "interface" keyword
+-Should not use the keyword "class"
+-Interface fields are variable data member public
+-Static and final by default.
+
+ENCAPSULATION 
+--------------
+-Encapsultion is a process of hiding the data and Allowing only thurough methods.
+-This hepls to protect the Object data pronotors clear interface for using the object.
+
+DATA HIDING:
+--------------
+-The internal repersentation(dat or valriable) of an object this hidden from the outside.
+-This is typically done by declaretion variable as private.
+
+ACCESS THORUGH METHOD:
+----------------------
+-Commonly know as GETTER/SETTER methods.
+-getter -retrive the value of a private variable.
+-Setter -set and update the value of private.
+
+ program:
+ class student {
+    private int age;  //assign a private keywords because data hiding
+    private String name;
+    public void setanmeage(String name.int age){ //set the value for variable
+            this.name=name;
+            this.age=age;
+    }
+    public void getnameage(){
+        system.out.println(name);
+        system.out.println(age);
+    }
+ }
+class main{
+    p.s.v.m(){
+        student s=new student();
+        s.setnameage("vijay",20);
+        s.getnameage(); //output is vijay 20
+    }
+}
+
+
