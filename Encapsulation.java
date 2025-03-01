@@ -1,15 +1,15 @@
-//this method used to encapsulation 
+//this is method used to encapsulation 
 //It is used to private access  keyword 
 //encapsulation is a process of hiding data and cannot change and modify values 
 
 class Student{
     private int Age;
     private String Name;
-    public void setAgename(String name,int age){
+    public void setAgename(String name,int age){  //set value through method
         Age=age;
         Name=name;
     }
-    public int getage(){
+    public int getage(){  //get value thorugh mathod
         return Age;
     }
     public String getname(){
