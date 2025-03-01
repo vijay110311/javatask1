@@ -1,5 +1,5 @@
-//java does not support multiple inherit so we can't use the hybrid inherit
- 
+//java does not support multiple inherit and hybrid inherit
+ //it can achived by interface keyword and methods
  
  
  class A  {
