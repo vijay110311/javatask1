@@ -128,3 +128,68 @@ class main{
 }
 
 
+EXCEPTION
+----------
+
+-Exception is an unwanted or unexpected event that occurs during program excution.
+-Distrupting the normal flow of the program's instruction.
+
+ TYPE OF EXPECTION
+ -----------------
+
+ -User-defined exception
+ -Built-in exception
+
+ BUILT-IN 
+ ---------
+ -checked Exception
+ -unchecked Exception
+
+checked Exception(compile-timr Exception):
+-------------------------------------------
+ -Checked Exception are called compile-time Exception.
+ -These Exception are checkedar compile time by the compiler.
+-Must be handled using try-catch block (or) it Should Declarethe
+ Exception using throws keyword otherwise the program wil a compilation error
+ EX:
+    -ClassNotfound Exception
+    -Interrupted Exception
+    -IO Exception
+    -instatiation Exception
+    -SQL Exception
+    -FileNotFound Exception
+
+unchecked Exception(run-time exception):
+-----------------------------------------
+-These exception are just opposite to the checked exception
+-the compiler will not checked These exception at compile time.
+-Most of the times These exception occurs due to the bad data provided by the 
+during the user program interacion.
+-All unchecked exception are direct subclass of runtime exception class.
+EX:
+    -Arithmetic exception
+    -ClassCast exception
+    -NullPointer exception
+    -ArrayIndexNotFound exception
+    -ArrayStore exception
+    -IllegalThreadState exception
+
+EXCEPTION HANDLING:
+-------------------
+-Exception handling is a machanism in java used to handle euntimr errors.
+-It ensures the normal flow of the program is maintained.
+-Java provides a structured way to detect and recover from errors.
+-It hepls maintain the noemal flow of the execution even when an error occurs.
+
+EXCEPTION HANDLING in java can be achived using:
+-------------------------------------------------
+    -try
+    -catch
+    -throw
+    -throws
+    -finally
+
+
+
+ 
+
